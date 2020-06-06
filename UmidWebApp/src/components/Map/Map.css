@@ -1,0 +1,9 @@
+.set-marker-button {
+    position: absolute;
+    color: #0390E9;
+    font-size: 40px;
+    z-index: 999;
+    top: calc(50% - 40px);
+    left: calc(50% - 22.86px);
+    width: auto;
+}

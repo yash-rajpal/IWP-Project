@@ -1,0 +1,7 @@
+@import "bower_components/mui/src/sass/mui/colors";
+
+// customize MUI variables
+$mui-input-placeholder-color:       mui-color('purple', '500');
+
+// import MUI SASS
+@import "bower_components/mui/src/sass/mui";

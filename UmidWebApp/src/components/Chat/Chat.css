@@ -1,0 +1,208 @@
+.open-button {
+    background-color: #555;
+    text-align: center;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    width: 17%;
+    height:40px;
+    line-height: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+  }
+.chatList
+{   display: block;
+    flex-direction: column;
+    background-color: white !important;
+    color: white;
+    /* padding: 16px 20px; */
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    width:17%;
+    height:80%;
+     /* border-radius : 2%; */
+}
+.contact
+{
+    background-color: #0390E9 !important;
+    font-size: 14px;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.contact-heading
+{
+    /* background-color: #0390E9 !important; */
+    font-size: 15px;
+    /* align-items: center; */
+    /* border-top-left-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+    display: flex;
+    flex-direction: row;
+    letter-spacing : 0.5px;
+    /* padding: 10px; */
+    color: white;
+}
+
+
+
+.chats{
+    height:100%;
+    overflow:auto;
+    border: 1px solid lightgray;
+    
+    border-width: thin;
+}
+
+.chats:hover {
+    /* background-color: lightgray; */
+}
+.chatUser
+{   display: flex;
+    flex-direction: row;
+    width:100%;
+    color:darkblue;
+    /* border:1px solid lightgray; */
+    height: 35px;
+    align-items: center;
+}
+.chatUser:hover
+{
+    cursor :pointer;
+    
+}
+.userAvatar
+{
+height:28px !important;
+width:28px !important;
+border-radius: 50%;
+margin:2%;
+}
+.userName
+{
+text-align: center;
+color: gray;
+margin-left: 5px;
+font-size: 14px;
+
+}
+.chatApp
+{
+    width:300px;
+    height:350px;
+    bottom:5% !important;
+    background-color: white;
+    border: 1px solid lightgray;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 19%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 9;
+}
+.close-chat
+{
+    right:0;
+}
+
+.chatPerson { 
+    right:'0px';
+    margin-right:'2px';
+    cursor:'pointer';
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border : 1px solid gray; */
+    padding : 2px 0px 2px 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #4383C0 ;
+}
+
+.closeChat{
+    margin:3px 10px 2px 0px;
+    font-size: 14px;
+
+}
+
+.personName{
+    margin: 2px 0px 2px 2px;
+}
+
+.chatArea
+{
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 17%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+  /* media query for targeting mobile */
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .open-button{
+        background-color: #555;
+    text-align: center;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 40px;
+    line-height: 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    }
+    .chatApp {
+        width: 100%;
+        height: 96%;
+        background-color: white;
+        border: 1px solid lightgray;
+        display: none;
+        position: fixed;
+        bottom: 29px;
+        right: 0;
+        z-index: 9;
+    }
+    .chatList {
+        display: none;
+        width: 100%;
+        position: relative;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        }
+  }

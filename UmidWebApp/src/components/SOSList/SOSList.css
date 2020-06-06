@@ -1,0 +1,248 @@
+#list-view {
+    width: 175%;
+    outline: none;
+    border: 0px;
+    margin: auto;
+}
+
+
+.name{
+    display: flex;
+
+}
+
+.list-item {
+    /* display: flex;
+    flex-direction: row; */
+    /* height: 180px; */
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    margin-bottom: 40px;
+    border-top-width: 1px !important;
+    padding: 0;
+}
+
+.list-div {
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column ;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.category-name{
+    background-color: #0390E9;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding : 5px 0px 0px 10px;
+    height: 35px;
+}
+
+.userDetails{
+    padding : 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.username-main{
+    display: flex;
+    flex-direction: row;
+    /* background-color: #B3DDF8; */
+    /* opacity: 0.2; */
+    color : white;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    height : 35px;
+    margin-bottom: 10px;
+    border-width: 2;
+    border-color: "black";
+}
+
+.user-icon{
+    width: 15%;
+    background-color: white;
+    border: 1px solid #B3DDF8;
+    color: #0390E9;
+    padding: 5px 8px 5px 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.user-icon-button{
+    /* width: 15%; */
+    background-color: white;
+    border: 1px solid #B3DDF8;
+    color: #0390E9;
+    padding : 1px 2px 2px 2px;
+    /* padding: 5px 8px 5px 8px; */
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.user-icon-button-delete{
+    background-color: #0390E9;
+    /* border: 1px solid #B3DDF8; */
+    /* color: #0390E9; */
+    /* padding : 1px 2px 2px 2px; */
+    /* padding: 5px 8px 5px 8px; */
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+}
+.username{
+    padding : 3px;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#main_div {
+    /*float: left;*/
+    /*width: 20%;*/
+    /*margin-right: 10%;*/
+    /* width: 240px; */
+    min-width: 240px;
+    /* border-right: 2px solid #e0e0e0; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 10px; */
+    /* justify-content: center; */
+    /* padding: 10px; */
+}
+
+button {
+    width: 170px;
+}
+span {
+    font-size: 10px;
+}
+
+.btn-class {
+    background-color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.fa{
+    margin-right:5px;
+}
+
+.featured-btn {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+
+.category{
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .featured-btn {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .functional-btn {
+        width: 90px;
+        float: right;
+        margin-bottom: 5px;
+    }
+
+    #main_div {
+    /* width: 200px; */
+    /* min-width: 200px; */
+    }
+
+    #list-view {
+    width: 145%;
+    outline: none;
+    border: 0px;
+    margin: auto;
+}
+}
+.functional-btn {
+    /* background-color: #0390E9; */
+    /* color: #fff; */
+    background-color: white;
+    border:none;
+    color: #0390E9;
+    height: 30px;
+    width: 90px;
+}
+.functional-btn1 {
+    /* background-color: #0390E9; */
+    /* color: #fff; */
+    background-color: #0390E9;
+    border:none;
+    color: white;
+    height: 30px;
+    width: 90px;
+}
+
+
+
+
+.functional-btn-delete{
+    background-color: #0390E9;
+    border:none;
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.search-bar {
+    /*border-radius: 1px;
+    position: relative;
+    left: 9px;
+    width: 70%;
+    margin-bottom: 10px;
+    outline: none !important;*/
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+    outline: none !important;
+    font-size: 13px;
+}
+
+*:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.list-span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0390E9;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+.list-span-distance{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
